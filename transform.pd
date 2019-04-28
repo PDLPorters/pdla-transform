@@ -252,6 +252,10 @@ included in the file.
 
 package PDLA::Transform;
 
+#our $VERSION = '2.019106';
+our $VERSION; BEGIN { $VERSION = '2.019106' };
+our $XS_VERSION; BEGIN { $XS_VERSION = $VERSION };
+
 use Carp;
 use overload '""' => \&_strval;
 use overload 'x' => \&_compose_op;

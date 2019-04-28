@@ -42,7 +42,7 @@ WriteMakefile(
   },
   MIN_PERL_VERSION => '5.010',
   NAME => 'PDLA::Transform',
-#  VERSION_FROM => 'transform.pd',
+  VERSION_FROM => 'transform.pd',
   META_MERGE => {
     "meta-spec" => { version => 2 },
     resources => {
